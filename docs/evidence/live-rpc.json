@@ -1,0 +1,56 @@
+{
+  "checkedAt": "2026-09-27T06:48:04Z",
+  "checks": [
+    {
+      "rpc": "https://ethereum-sepolia-rpc.publicnode.com",
+      "checks": [
+        {
+          "method": "eth_chainId",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "method": "eth_getCode",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "method": "eth_getCode",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ]
+    },
+    {
+      "rpc": "https://rpc.sepolia.ethpandaops.io",
+      "checks": [
+        {
+          "method": "eth_chainId",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "method": "eth_getCode",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "method": "eth_getCode",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ]
+    },
+    {
+      "rpc": "https://sepolia.rpc.sentio.xyz",
+      "checks": [
+        {
+          "method": "eth_chainId",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "method": "eth_getCode",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "method": "eth_getCode",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ]
+    }
+  ]
+}

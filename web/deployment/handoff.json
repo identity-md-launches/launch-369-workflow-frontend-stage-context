@@ -1,0 +1,51 @@
+{
+  "chainId": 11155111,
+  "repoUrl": "https://github.com/identity-md-launches/launch-290-gradientnft",
+  "version": 1,
+  "launchId": "f7b9a75f-bb47-4d25-be73-661b199fadef",
+  "manifest": {
+    "kind": "evm_project",
+    "pool": {
+      "fee": 3000,
+      "tickSpacing": 60,
+      "initialPrice": "79228162514264337593543950336",
+      "pairedCurrency": "0x0000000000000000000000000000000000000000"
+    },
+    "notes": "Intended for Sepolia. LaunchToken is src/LaunchToken.sol; GradientNFT is src/GradientNFT.sol. GradientNFT stores the launch token address immutably and requires no token balance at deployment. Neither contract has a privileged owner or requires initialization calls. Users obtain GRAD from the native ETH/GRAD launch pool and approve GradientNFT before minting. Each NFT costs 10,000 GRAD, transferred directly from the minter to the dead address. Art is determined solely by token id, so mint order determines the art received. The pool has no hook; initialPrice is decimal sqrtPriceX96, with the effective opening price derived from pinned policy when applicable. The factory supplies the LP and MerkleDistributor. Policy, signed artifact linkage, publication, attestation, admission and deployment are handled by services.",
+    "token": {
+      "name": "Gradients",
+      "symbol": "GRAD",
+      "contract": "LaunchToken",
+      "decimals": 18
+    },
+    "contracts": [
+      {
+        "contract": "GradientNFT",
+        "constructorArgs": [
+          "$token"
+        ]
+      }
+    ]
+  },
+  "contracts": [
+    {
+      "name": "LaunchToken",
+      "txHash": "0x7a20e71a06fc9cc2db96b908c7f40434b6dd5250314afc46ffb579f652ee129a",
+      "abiHash": "f36d2fe28b62f817a4fba0b78bb501b41895eada3982280273c063ad8183f577",
+      "address": "0xad48cbc311b9d5af8ea0e07bcf43238884af1385",
+      "blockNumber": 11791434,
+      "creationCodeHash": "d17e3462521d383872478acaba843ecfee615f8e79335c87aa208aacbb9dd05e"
+    },
+    {
+      "name": "GradientNFT",
+      "txHash": "0x7a20e71a06fc9cc2db96b908c7f40434b6dd5250314afc46ffb579f652ee129a",
+      "abiHash": "2b71ce4e835c454c76b31a86f2a03f256056ffe3d5772983d8c8f1ccafb5902d",
+      "address": "0xe3c7ac9d176525519e7caf0c6d83f793f2c613e8",
+      "blockNumber": 11791434,
+      "creationCodeHash": "9ecb55f7b21d9911156a3587cb5b67525b033741b6746f79d548979ac6763f2e"
+    }
+  ],
+  "sourceCommit": "75fbd25eab2092bec9409a31a5e2d9977f339aa4",
+  "abiInstructions": "Build ABIs from this exact source commit; compare canonicalKeccak(abi) with abiHash. Verify deployed code on the stated chain before enabling transactions.",
+  "attestationHash": "d490127ba04226e940c7856377d2963dd9c3df01972a5346e502fadc93e1d7cc"
+}

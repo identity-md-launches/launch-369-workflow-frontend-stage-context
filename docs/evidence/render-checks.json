@@ -1,0 +1,94 @@
+{
+  "widths": [
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1": "91.2px",
+      "quantitySize": "16px"
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "h1": "66.56px",
+      "quantitySize": "16px"
+    },
+    {
+      "width": 790,
+      "scrollWidth": 790,
+      "h1": "52.8px",
+      "quantitySize": "16px"
+    },
+    {
+      "width": 600,
+      "scrollWidth": 600,
+      "h1": "52.8px",
+      "quantitySize": "16px"
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "h1": "52.8px",
+      "quantitySize": "16px"
+    },
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "h1": "52.8px",
+      "quantitySize": "16px"
+    }
+  ],
+  "contrast": [
+    {
+      "selector": "body",
+      "foreground": "rgb(37, 40, 32)",
+      "background": "rgb(246, 245, 240)",
+      "ratio": 13.71153374899565
+    },
+    {
+      "selector": ".intro-copy .muted",
+      "foreground": "rgb(93, 98, 85)",
+      "background": "rgb(246, 245, 240)",
+      "ratio": 5.753476844812503
+    },
+    {
+      "selector": ".mint-panel .muted",
+      "foreground": "rgb(93, 98, 85)",
+      "background": "rgb(255, 254, 251)",
+      "ratio": 6.22719090516744
+    },
+    {
+      "selector": ".mint-panel .primary",
+      "foreground": "rgb(37, 40, 32)",
+      "background": "rgb(220, 236, 162)",
+      "ratio": 11.805135493742139
+    },
+    {
+      "selector": ".action-hint",
+      "foreground": "rgb(93, 98, 85)",
+      "background": "rgb(255, 254, 251)",
+      "ratio": 6.22719090516744
+    },
+    {
+      "selector": ".live-strip",
+      "foreground": "rgb(93, 98, 85)",
+      "background": "rgb(246, 245, 240)",
+      "ratio": 5.753476844812503
+    },
+    {
+      "selector": ".art-caption",
+      "foreground": "rgb(37, 40, 32)",
+      "background": "rgb(246, 245, 240)",
+      "ratio": 13.71153374899565
+    },
+    {
+      "selector": ".mint-footnote",
+      "foreground": "rgb(93, 98, 85)",
+      "background": "rgb(255, 254, 251)",
+      "ratio": 6.22719090516744
+    }
+  ],
+  "textZoom": "200% at 720px",
+  "rtl": "720px overflow check",
+  "reducedMotion": "0s button transition",
+  "errors": []
+}

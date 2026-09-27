@@ -1,0 +1,5 @@
+
+> gradients-frontend@1.0.0 validate:export
+> node scripts/export-manifest.mjs --check
+
+Verified pinned ABIs, deployment, network and all 6 asset hashes.

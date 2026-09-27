@@ -1,0 +1,26 @@
+
+> gradients-frontend@1.0.0 test
+> playwright test
+
+[2m[WebServer] [22m(node:96) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[2m[WebServer] [22m(Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 11 tests using 1 worker
+
+(node:108) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:108) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 tests/app.spec.ts:6:1 › subpath export, no wallet, live gallery decoding and 24-item pagination (760ms)
+  ✓   2 tests/app.spec.ts:30:1 › connect, exact-cost approval, mint 10, receipt and refreshed balances (1.0s)
+  ✓   3 tests/app.spec.ts:59:1 › unknown wallet chain offers exact add-chain parameters, then switches again (417ms)
+  ✓   4 tests/app.spec.ts:72:1 › wallet rejection is recoverable; simulation revert prevents signing (884ms)
+  ✓   5 tests/app.spec.ts:92:1 › insufficient balance, quantity boundaries, cap and sold-out state (482ms)
+  ✓   6 tests/app.spec.ts:113:1 › verification fails closed for missing code, wrong binding and RPC failure; retry recovers (807ms)
+  ✓   7 tests/app.spec.ts:134:1 › receipt revert is not reported as success (397ms)
+  ✓   8 tests/app.spec.ts:142:1 › chain and account events invalidate balances and pending eligibility (429ms)
+  ✓   9 tests/app.spec.ts:158:1 › empty gallery, malformed metadata and retry (505ms)
+  ✓  10 tests/app.spec.ts:171:1 › tampered implementation ABI prevents the app from enabling transactions (108ms)
+  ✓  11 tests/app.spec.ts:179:1 › desktop/mobile render, keyboard flow, contrast, overflow and reduced motion (3.6s)
+
+  11 passed (11.0s)

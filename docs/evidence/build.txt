@@ -1,0 +1,19 @@
+
+> gradients-frontend@1.0.0 build
+> npm run typecheck && vite build && node scripts/export-manifest.mjs
+
+
+> gradients-frontend@1.0.0 typecheck
+> tsc --noEmit
+
+vite v7.1.12 building for production...
+transforming...
+✓ 426 modules transformed.
+rendering chunks...
+computing gzip size...
+../dist/index.html                   0.85 kB │ gzip:   0.52 kB
+../dist/assets/index-B5PmTtJ4.css   14.95 kB │ gzip:   3.78 kB
+../dist/assets/ccip-CG5KGMTS.js      2.61 kB │ gzip:   1.23 kB
+../dist/assets/index-D9wb9w_S.js   476.43 kB │ gzip: 148.64 kB
+✓ built in 1.51s
+Wrote deployment manifest with 6 hashed assets.
